@@ -82,7 +82,7 @@ class ActionSheetContainer extends Component {
                   <Icon name={data.icon} />
                 </Left>
                 <Body style={{borderColor: 'transparent'}}>
-                  <Text>{data.text}</Text>
+                  <Text style={{color: 'black'}}>{data.text}</Text>
                 </Body>
                 <Right />
               </ListItem>}
